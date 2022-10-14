@@ -85,3 +85,12 @@ value:相应的路由组件
     -引入
     -注册
     -使用
+
+5：路由组件的搭建
+vue-router
+在上面分析的时候，路由组件应该有四个：Home、Search、Login、Register
+-components文件夹：经常放置的非路由组件（共用全局组件）
+-pages|views文件夹：经常放置路由组件
+
+    5.1配置路由
+    项目当中配置的路由一般放置在router文件夹中
